@@ -1,0 +1,17 @@
+/* Cambios en la fuente y margen derecho */
+#category-checkboxes label {
+  font-size: 18px; /* Tamaño de fuente personalizado, ajusta según tus preferencias */
+  }
+
+/* Cambio de la alineación de los checkboxes */
+#category-checkboxes .form-check {
+  display: flex;
+  align-items: center;
+  margin-right: 10px; /* Margen derecho para separar los checkboxes */
+}
+
+
+/* Alineación de los checkboxes a la izquierda */
+#category-checkboxes .form-check input {
+  margin-right: 10px;
+}

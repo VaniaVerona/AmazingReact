@@ -1,0 +1,25 @@
+table {
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+  width: 100%; /* Asegura que la tabla ocupe todo el ancho disponible */
+}
+
+#events-stats,
+#upcoming-events-stats {
+  margin-bottom: 0;
+}
+
+#upcoming-events-stats th,
+#upcoming-events-stats td,
+#past-events-stats th,
+#past-events-stats td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+table tr {
+  background-color: rgba(0, 0, 0);
+}

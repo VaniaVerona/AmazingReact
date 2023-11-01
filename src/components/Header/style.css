@@ -1,0 +1,20 @@
+
+.navbar-toggler-icon {
+    background-color: #DC026A
+  }
+  
+  .navbar-nav .nav-link.btn {
+    background-color: black;
+    color: white;
+    margin-right: 0.5rem;
+  }
+  
+  
+#home-btn.active,
+#upcoming-events-btn.active,
+#past-events-btn.active,
+#contact-btn.active,
+#stats-btn.active {
+    background-color: #DC026A;
+    transform: translateY(-3px);
+}

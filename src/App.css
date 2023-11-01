@@ -1,0 +1,45 @@
+body {
+  overflow-x: hidden;
+  font-family: Verdana, arial, sans-serif;
+  background-image: url('./src/assets/img/fondo.jpg');
+  justify-content: center;
+ }
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+table th,
+table td {
+  text-align: center ;
+  vertical-align: middle ;
+}
+
+.form-check-input:checked {
+  background-color: #dc026a;
+  border-color: #dc026a;
+}
+
+.btn-primary {
+  background-color: #DC026A;
+  border-color: #000000;
+}
+
+#no-events-message {
+  color: white;
+  text-align: center;
+}
+
+.main-content {
+  min-height: calc(100vh - 5rem);
+  padding-bottom: 50px; 
+ 
+}   
+
+
+
